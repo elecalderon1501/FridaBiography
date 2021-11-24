@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --color-1: #F20544;
+    --color-2:#A6033F;
+    --color-3:#59072D;
+    --color-4:#201F26;
+    --color-5:#8FA69D;
+    
+}
+
+body {
+    display: flex;
+    background-color: var(--color-4);
+    font-family: 'Dancing Script', cursive;
+}
+
+body nav{
+    font-size: 30px;
+    text-align: center;
+}
+
+body a{
+    text-decoration: none;
+    color: var(--color-1);
+    font-size: 60px;
+}
+
+body h1 {
+    color: var(--color-2);
+    text-align: center;
+    font-size: 50px;
+}
+
+body h2{
+    color:var(--color-5);
+    text-align: center;
+    font-size:60px;
+}
+p{
+    font-size: 30px;
+    color: var(--color-5);
+    margin: 10px;
+    text-justify: initial;
+}
+
+.contenedor-obra{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 10px;
+
+}
+
+img {
+    width:100%;
+    height: 100%;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-size: 8px;
+}
+
+.biografia {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 20px;
+    line-height: 1.5;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: justify;
+
+
+}
+
+.biografia img{
+    border-radius: 5px;
+    float:left;
+    margin-right: 15px;
+}
+
+.biografia p{
+    text-align: justify;
+    
+
+}

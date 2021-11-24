@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-1: #f20544;
+  --color-2: #a6033f;
+  --color-3: #59072d;
+  --color-4: #201f26;
+  --color-5: #8fa69d;
+}
+body {
+  background-color: var(--color-4);
+  font-family: "Dancing Script", cursive;
+}
+h1 {
+  color: var(--color-1);
+  text-align: center;
+  font-size: 60px;
+  margin-top: 5px;
+}
+
+.biografia {
+  display: flex;
+  width: 90%;
+  margin-top: 50px;
+  padding: 5px 5px;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: right;
+}
+
+.biografia img {
+  border-radius: 5px;
+  float: left;
+  object-fit: cover;
+}
+
+.biografia p {
+  color: var(--color-5);
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 8px;
+}
